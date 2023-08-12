@@ -11,13 +11,13 @@ EpiCare is a collection of applications that aims to aid medical practitioners a
 
 The app consists of smaller applications (micro-services) that aim to separate the logic of the application and ease the process of scaling specific features to adjust to the load on the system.
 
-### Frontend Application
+### [Frontend Application](https://github.com/Epilepsy-Detection/frontend)
 
 Epicare’s front end is the portion of the application with which the user (either a doctor or a patient) interacts. It solicits the necessary user input and displays the desired outcomes. Doctors use our website to connect with their patients and view their EEG data in real-time. Doctors also use it to monitor their patients and view a patient’s medical history. On the other side, a patient can utilize the system to view his or her medical history and modify his or her personal information.
 
 Stack: Javascript, ReactJS, Redux
 
-### API Server
+### [API Server](https://github.com/Epilepsy-Detection/ep-det-api)
 
 ![api structure](https://github.com/Epilepsy-Detection/.github/assets/23122237/e919d215-37fb-4ab0-bce8-08dfcd5324b2)
 
@@ -37,7 +37,7 @@ The API server sends the EEG signal file uploaded by the doctor to the Machine L
 Stack: Javascript, NodeJS, ExpressJS, MongoDB
 
 
-### Machine Learning Server
+### [Machine Learning Server](https://github.com/Epilepsy-Detection/ml-model-webserver)
 
 ![ml server api](https://github.com/Epilepsy-Detection/.github/assets/23122237/c2a1e4c6-bc00-425e-8632-ea276a56a1d8)
 
@@ -48,7 +48,7 @@ The application is containerized using docker to allow ease of management of dep
 Stack: Python, Flask, Docker, Tensorflow
 
 
-### Real-time Server
+### [Real-time Server](https://github.com/Epilepsy-Detection/ep-det-realtime)
 
 ![realtime](https://github.com/Epilepsy-Detection/.github/assets/23122237/7f366590-13c5-462a-af9f-7e0daacb80b0)
 
@@ -64,7 +64,7 @@ When the patient is wearing a device that transmits EEG data continuously. A sys
 Stack: NodeJS, SocketIO, Redis, RabbitMQ
 
 
-### Notifier Server
+### [Notifier Server](https://github.com/Epilepsy-Detection/ep-det-notifier)
 
 ![notifier rabbit](https://github.com/Epilepsy-Detection/.github/assets/23122237/1669c294-05fa-464e-9671-deff69e9a085)
 
